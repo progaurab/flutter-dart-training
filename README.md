@@ -14,7 +14,7 @@ Flutter and Dart Training
     <summary> pubspec.yaml <summary>
         The pubspec. yaml the file is a configuration file used by the Dart package manager, pub to manage your Flutter project's dependencies and settings. It's where you define everything from the name of your project to the third-party packages you want to use in your app.
 
-        ```
+        ```yaml
             # pubspec.yaml
             name: ex01_statelss_widget
             description: "A new Flutter project."
@@ -44,10 +44,10 @@ Flutter and Dart Training
 
 
 <details>
-    <summary> lib/main.dart <summary>
+    <header>lib/main.dart <header>
 The main function by itself is the Dart entry point of an application. What makes the Flutter application take the scene is the runApp function called by passing a widget as a parameter, which will be the root widget of the application (the application itself).
 
-        ```
+        ```dart
             # main.dart
             import 'package:flutter/material.dart';
 
