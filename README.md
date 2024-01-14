@@ -11,9 +11,9 @@ Flutter and Dart Training
 ``$ flutter run``
 
 
-> [!TIP] pubspec.yaml
-> The pubspec. yaml the file is a configuration file used by the Dart package manager, pub to manage your Flutter project's dependencies and settings. It's where you define everything from the name of your project to the third-party packages you want to use in your app.
-        ```yaml
+> [!TIP]
+> The **pubspec.yaml** the file is a configuration file used by the Dart package manager, pub to manage your Flutter project's dependencies and settings. It's where you define everything from the name of your project to the third-party packages you want to use in your app.
+        ``` yml
             # pubspec.yaml
             name: ex01_statelss_widget
             description: "A new Flutter project."
