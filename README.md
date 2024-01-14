@@ -1,19 +1,20 @@
 # flutter-dart-training
 Flutter and Dart Training
 
-## Create flutter app
+### Create flutter app
 `$ flutter create ex01_statelss_widget`
 
-## Go to flutter app
+### Go to flutter app
 ``$ cd ex01_statelss_widget``
 
-## Run flutter app
+### Run flutter app
 ``$ flutter run``
 
 
+
 > [!TIP]
-> The **pubspec.yaml** the file is a configuration file used by the Dart package manager, pub to manage your Flutter project's dependencies and settings. It's where you define everything from the name of your project to the third-party packages you want to use in your app.
-        ``` yml
+> The **pubspec.yaml** the file is a configuration file used by the Dart package manager, pub to manage your Flutter project's dependencies and settings. It's where you define everything from the name of your project to the third-party packages you want to use in your app.   
+```yaml
             # pubspec.yaml
             name: ex01_statelss_widget
             description: "A new Flutter project."
@@ -38,17 +39,14 @@ Flutter and Dart Training
             flutter:
             uses-material-design: true
 
-        ```
+```
 <details>
 
 </details>
 
-
-<details>
-    <header>lib/main.dart <header>
-The main function by itself is the Dart entry point of an application. What makes the Flutter application take the scene is the runApp function called by passing a widget as a parameter, which will be the root widget of the application (the application itself).
-
-        ```dart
+> [!TIP]
+> **lib/main.dart**: The main function by itself is the Dart entry point of an application. What makes the Flutter application take the scene is the runApp function called by passing a widget as a parameter, which will be the root widget of the application (the application itself).
+```dart
             # main.dart
             import 'package:flutter/material.dart';
 
@@ -86,46 +84,26 @@ The main function by itself is the Dart entry point of an application. What make
                 );
             }
             }
-        ```
-</details>
-        
-<details>
-    <summary>Tips for collapsed sections</summary>
+```
+### Screen
+![stateless widge example](https://github.com/progaurab/flutter-dart-training/blob/master/flutter_Apps/screenshots/ex01_statelss_widget.png)
 
-</details>
+> [!IMPORTANT]
+> **State**: The state is data. The state is information. Flutter uses this data to build the user interface. We all know Flutter is a declarative framework. This Means Flutter builds its User Interface to reflect the current state of the app.
 
-<details>
-    <summary>widget</summary>
+> [!IMPORTANT]
+> **Stateless Widget**: A stateless widget never changes. Icon , IconButton , and Text are examples of stateless widgets.
 
-</details>
+> [!IMPORTANT]
+> **Stateful Widget**: A stateful widget is dynamic: for example, it can change its appearance in response to events triggered by user interactions or when it receives data. Checkbox , Radio , Slider , InkWell , Form , and TextField are examples of stateful widgets.
 
-<details>
-    <summary>state</summary>
-
-</details>
-
-<details>
-    <summary>stateless widget</summary>
-
-</details>
-
-<details>
-    <summary>statefull wdget</summary>
-informationinformationinformation informationinformation informationinformation 
-</details>
 
 
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
 > [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+> 
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+> 
